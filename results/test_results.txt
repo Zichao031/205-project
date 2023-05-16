@@ -1,0 +1,736 @@
+-----test depth 0-----
+-----Uniform Cost Search-----
+
+This puzzle is solvable.
+Traceback of this puzzle:
+[1, 2, 3]
+[4, 5, 6]
+[7, 8, 0]
+  
+Number of traced nodes: 1
+Number of nodes expanded: 0
+Max queue size: 1
+Elapsed time: 1.9786000000000803e-05 ms.
+-----A* Misplaced Tile Heuristic-----
+
+This puzzle is solvable.
+Traceback of this puzzle:
+[1, 2, 3]
+[4, 5, 6]
+[7, 8, 0]
+  
+Number of traced nodes: 1
+Number of nodes expanded: 0
+Max queue size: 1
+Elapsed time: 1.1323000000000583e-05 ms.
+-----A* Manhattan Distance Heuristic-----
+
+This puzzle is solvable.
+Traceback of this puzzle:
+[1, 2, 3]
+[4, 5, 6]
+[7, 8, 0]
+  
+Number of traced nodes: 1
+Number of nodes expanded: 0
+Max queue size: 1
+Elapsed time: 7.322000000000578e-06 ms.
+-----test depth 2-----
+-----Uniform Cost Search-----
+
+This puzzle is solvable.
+Traceback of this puzzle:
+[1, 2, 3]
+[4, 5, 6]
+[0, 7, 8]
+  
+[1, 2, 3]
+[4, 5, 6]
+[7, 0, 8]
+  
+[1, 2, 3]
+[4, 5, 6]
+[7, 8, 0]
+  
+Number of traced nodes: 3
+Number of nodes expanded: 5
+Max queue size: 6
+Elapsed time: 0.00033135800000000035 ms.
+-----A* Misplaced Tile Heuristic-----
+
+This puzzle is solvable.
+Traceback of this puzzle:
+[1, 2, 3]
+[4, 5, 6]
+[0, 7, 8]
+  
+[1, 2, 3]
+[4, 5, 6]
+[7, 0, 8]
+  
+[1, 2, 3]
+[4, 5, 6]
+[7, 8, 0]
+  
+Number of traced nodes: 3
+Number of nodes expanded: 2
+Max queue size: 3
+Elapsed time: 0.0001104159999999986 ms.
+-----A* Manhattan Distance Heuristic-----
+
+This puzzle is solvable.
+Traceback of this puzzle:
+[1, 2, 3]
+[4, 5, 6]
+[0, 7, 8]
+  
+[1, 2, 3]
+[4, 5, 6]
+[7, 0, 8]
+  
+[1, 2, 3]
+[4, 5, 6]
+[7, 8, 0]
+  
+Number of traced nodes: 3
+Number of nodes expanded: 2
+Max queue size: 3
+Elapsed time: 0.00011793099999999473 ms.
+-----test depth 4-----
+-----Uniform Cost Search-----
+
+This puzzle is solvable.
+Traceback of this puzzle:
+[1, 2, 3]
+[5, 0, 6]
+[4, 7, 8]
+  
+[1, 2, 3]
+[0, 5, 6]
+[4, 7, 8]
+  
+[1, 2, 3]
+[4, 5, 6]
+[0, 7, 8]
+  
+[1, 2, 3]
+[4, 5, 6]
+[7, 0, 8]
+  
+[1, 2, 3]
+[4, 5, 6]
+[7, 8, 0]
+  
+Number of traced nodes: 5
+Number of nodes expanded: 35
+Max queue size: 32
+Elapsed time: 0.006191655000000004 ms.
+-----A* Misplaced Tile Heuristic-----
+
+This puzzle is solvable.
+Traceback of this puzzle:
+[1, 2, 3]
+[5, 0, 6]
+[4, 7, 8]
+  
+[1, 2, 3]
+[0, 5, 6]
+[4, 7, 8]
+  
+[1, 2, 3]
+[4, 5, 6]
+[0, 7, 8]
+  
+[1, 2, 3]
+[4, 5, 6]
+[7, 0, 8]
+  
+[1, 2, 3]
+[4, 5, 6]
+[7, 8, 0]
+  
+Number of traced nodes: 5
+Number of nodes expanded: 4
+Max queue size: 6
+Elapsed time: 0.0006066160000000043 ms.
+-----A* Manhattan Distance Heuristic-----
+
+This puzzle is solvable.
+Traceback of this puzzle:
+[1, 2, 3]
+[5, 0, 6]
+[4, 7, 8]
+  
+[1, 2, 3]
+[0, 5, 6]
+[4, 7, 8]
+  
+[1, 2, 3]
+[4, 5, 6]
+[0, 7, 8]
+  
+[1, 2, 3]
+[4, 5, 6]
+[7, 0, 8]
+  
+[1, 2, 3]
+[4, 5, 6]
+[7, 8, 0]
+  
+Number of traced nodes: 5
+Number of nodes expanded: 4
+Max queue size: 6
+Elapsed time: 0.0004925780000000005 ms.
+-----test depth 8-----
+-----Uniform Cost Search-----
+
+This puzzle is solvable.
+Traceback of this puzzle:
+[1, 3, 6]
+[5, 0, 2]
+[4, 7, 8]
+  
+[1, 3, 6]
+[5, 2, 0]
+[4, 7, 8]
+  
+[1, 3, 0]
+[5, 2, 6]
+[4, 7, 8]
+  
+[1, 0, 3]
+[5, 2, 6]
+[4, 7, 8]
+  
+[1, 2, 3]
+[5, 0, 6]
+[4, 7, 8]
+  
+[1, 2, 3]
+[0, 5, 6]
+[4, 7, 8]
+  
+[1, 2, 3]
+[4, 5, 6]
+[0, 7, 8]
+  
+[1, 2, 3]
+[4, 5, 6]
+[7, 0, 8]
+  
+[1, 2, 3]
+[4, 5, 6]
+[7, 8, 0]
+  
+Number of traced nodes: 9
+Number of nodes expanded: 248
+Max queue size: 152
+Elapsed time: 0.138616726 ms.
+-----A* Misplaced Tile Heuristic-----
+
+This puzzle is solvable.
+Traceback of this puzzle:
+[1, 3, 6]
+[5, 0, 2]
+[4, 7, 8]
+  
+[1, 3, 6]
+[5, 2, 0]
+[4, 7, 8]
+  
+[1, 3, 0]
+[5, 2, 6]
+[4, 7, 8]
+  
+[1, 0, 3]
+[5, 2, 6]
+[4, 7, 8]
+  
+[1, 2, 3]
+[5, 0, 6]
+[4, 7, 8]
+  
+[1, 2, 3]
+[0, 5, 6]
+[4, 7, 8]
+  
+[1, 2, 3]
+[4, 5, 6]
+[0, 7, 8]
+  
+[1, 2, 3]
+[4, 5, 6]
+[7, 0, 8]
+  
+[1, 2, 3]
+[4, 5, 6]
+[7, 8, 0]
+  
+Number of traced nodes: 9
+Number of nodes expanded: 18
+Max queue size: 16
+Elapsed time: 0.0016058640000000124 ms.
+-----A* Manhattan Distance Heuristic-----
+
+This puzzle is solvable.
+Traceback of this puzzle:
+[1, 3, 6]
+[5, 0, 2]
+[4, 7, 8]
+  
+[1, 3, 6]
+[5, 2, 0]
+[4, 7, 8]
+  
+[1, 3, 0]
+[5, 2, 6]
+[4, 7, 8]
+  
+[1, 0, 3]
+[5, 2, 6]
+[4, 7, 8]
+  
+[1, 2, 3]
+[5, 0, 6]
+[4, 7, 8]
+  
+[1, 2, 3]
+[0, 5, 6]
+[4, 7, 8]
+  
+[1, 2, 3]
+[4, 5, 6]
+[0, 7, 8]
+  
+[1, 2, 3]
+[4, 5, 6]
+[7, 0, 8]
+  
+[1, 2, 3]
+[4, 5, 6]
+[7, 8, 0]
+  
+Number of traced nodes: 9
+Number of nodes expanded: 12
+Max queue size: 12
+Elapsed time: 0.0010859149999999929 ms.
+-----test depth 12-----
+-----Uniform Cost Search-----
+
+This puzzle is solvable.
+Traceback of this puzzle:
+[1, 3, 6]
+[5, 0, 7]
+[4, 8, 2]
+  
+[1, 3, 6]
+[5, 7, 0]
+[4, 8, 2]
+  
+[1, 3, 6]
+[5, 7, 2]
+[4, 8, 0]
+  
+[1, 3, 6]
+[5, 7, 2]
+[4, 0, 8]
+  
+[1, 3, 6]
+[5, 0, 2]
+[4, 7, 8]
+  
+[1, 3, 6]
+[5, 2, 0]
+[4, 7, 8]
+  
+[1, 3, 0]
+[5, 2, 6]
+[4, 7, 8]
+  
+[1, 0, 3]
+[5, 2, 6]
+[4, 7, 8]
+  
+[1, 2, 3]
+[5, 0, 6]
+[4, 7, 8]
+  
+[1, 2, 3]
+[0, 5, 6]
+[4, 7, 8]
+  
+[1, 2, 3]
+[4, 5, 6]
+[0, 7, 8]
+  
+[1, 2, 3]
+[4, 5, 6]
+[7, 0, 8]
+  
+[1, 2, 3]
+[4, 5, 6]
+[7, 8, 0]
+  
+Number of traced nodes: 13
+Number of nodes expanded: 2020
+Max queue size: 1190
+Elapsed time: 7.9623287640000004 ms.
+-----A* Misplaced Tile Heuristic-----
+
+This puzzle is solvable.
+Traceback of this puzzle:
+[1, 3, 6]
+[5, 0, 7]
+[4, 8, 2]
+  
+[1, 3, 6]
+[5, 7, 0]
+[4, 8, 2]
+  
+[1, 3, 6]
+[5, 7, 2]
+[4, 8, 0]
+  
+[1, 3, 6]
+[5, 7, 2]
+[4, 0, 8]
+  
+[1, 3, 6]
+[5, 0, 2]
+[4, 7, 8]
+  
+[1, 3, 6]
+[5, 2, 0]
+[4, 7, 8]
+  
+[1, 3, 0]
+[5, 2, 6]
+[4, 7, 8]
+  
+[1, 0, 3]
+[5, 2, 6]
+[4, 7, 8]
+  
+[1, 2, 3]
+[5, 0, 6]
+[4, 7, 8]
+  
+[1, 2, 3]
+[0, 5, 6]
+[4, 7, 8]
+  
+[1, 2, 3]
+[4, 5, 6]
+[0, 7, 8]
+  
+[1, 2, 3]
+[4, 5, 6]
+[7, 0, 8]
+  
+[1, 2, 3]
+[4, 5, 6]
+[7, 8, 0]
+  
+Number of traced nodes: 13
+Number of nodes expanded: 119
+Max queue size: 84
+Elapsed time: 0.033918806000000856 ms.
+-----A* Manhattan Distance Heuristic-----
+
+This puzzle is solvable.
+Traceback of this puzzle:
+[1, 3, 6]
+[5, 0, 7]
+[4, 8, 2]
+  
+[1, 3, 6]
+[5, 7, 0]
+[4, 8, 2]
+  
+[1, 3, 6]
+[5, 7, 2]
+[4, 8, 0]
+  
+[1, 3, 6]
+[5, 7, 2]
+[4, 0, 8]
+  
+[1, 3, 6]
+[5, 0, 2]
+[4, 7, 8]
+  
+[1, 3, 6]
+[5, 2, 0]
+[4, 7, 8]
+  
+[1, 3, 0]
+[5, 2, 6]
+[4, 7, 8]
+  
+[1, 0, 3]
+[5, 2, 6]
+[4, 7, 8]
+  
+[1, 2, 3]
+[5, 0, 6]
+[4, 7, 8]
+  
+[1, 2, 3]
+[0, 5, 6]
+[4, 7, 8]
+  
+[1, 2, 3]
+[4, 5, 6]
+[0, 7, 8]
+  
+[1, 2, 3]
+[4, 5, 6]
+[7, 0, 8]
+  
+[1, 2, 3]
+[4, 5, 6]
+[7, 8, 0]
+  
+Number of traced nodes: 13
+Number of nodes expanded: 36
+Max queue size: 28
+Elapsed time: 0.004372014999999507 ms.
+-----test depth 16-----
+-----Uniform Cost Search-----
+
+This puzzle is solvable.
+Traceback of this puzzle:
+[1, 6, 7]
+[5, 0, 3]
+[4, 8, 2]
+  
+[1, 6, 7]
+[5, 3, 0]
+[4, 8, 2]
+  
+[1, 6, 0]
+[5, 3, 7]
+[4, 8, 2]
+  
+[1, 0, 6]
+[5, 3, 7]
+[4, 8, 2]
+  
+[1, 3, 6]
+[5, 0, 7]
+[4, 8, 2]
+  
+[1, 3, 6]
+[5, 7, 0]
+[4, 8, 2]
+  
+[1, 3, 6]
+[5, 7, 2]
+[4, 8, 0]
+  
+[1, 3, 6]
+[5, 7, 2]
+[4, 0, 8]
+  
+[1, 3, 6]
+[5, 0, 2]
+[4, 7, 8]
+  
+[1, 3, 6]
+[5, 2, 0]
+[4, 7, 8]
+  
+[1, 3, 0]
+[5, 2, 6]
+[4, 7, 8]
+  
+[1, 0, 3]
+[5, 2, 6]
+[4, 7, 8]
+  
+[1, 2, 3]
+[5, 0, 6]
+[4, 7, 8]
+  
+[1, 2, 3]
+[0, 5, 6]
+[4, 7, 8]
+  
+[1, 2, 3]
+[4, 5, 6]
+[0, 7, 8]
+  
+[1, 2, 3]
+[4, 5, 6]
+[7, 0, 8]
+  
+[1, 2, 3]
+[4, 5, 6]
+[7, 8, 0]
+  
+Number of traced nodes: 17
+Number of nodes expanded: 11416
+Max queue size: 6328
+Elapsed time: 305.071359287 ms.
+-----A* Misplaced Tile Heuristic-----
+
+This puzzle is solvable.
+Traceback of this puzzle:
+[1, 6, 7]
+[5, 0, 3]
+[4, 8, 2]
+  
+[1, 6, 7]
+[5, 3, 0]
+[4, 8, 2]
+  
+[1, 6, 0]
+[5, 3, 7]
+[4, 8, 2]
+  
+[1, 0, 6]
+[5, 3, 7]
+[4, 8, 2]
+  
+[1, 3, 6]
+[5, 0, 7]
+[4, 8, 2]
+  
+[1, 3, 6]
+[5, 7, 0]
+[4, 8, 2]
+  
+[1, 3, 6]
+[5, 7, 2]
+[4, 8, 0]
+  
+[1, 3, 6]
+[5, 7, 2]
+[4, 0, 8]
+  
+[1, 3, 6]
+[5, 0, 2]
+[4, 7, 8]
+  
+[1, 3, 6]
+[5, 2, 0]
+[4, 7, 8]
+  
+[1, 3, 0]
+[5, 2, 6]
+[4, 7, 8]
+  
+[1, 0, 3]
+[5, 2, 6]
+[4, 7, 8]
+  
+[1, 2, 3]
+[5, 0, 6]
+[4, 7, 8]
+  
+[1, 2, 3]
+[0, 5, 6]
+[4, 7, 8]
+  
+[1, 2, 3]
+[4, 5, 6]
+[0, 7, 8]
+  
+[1, 2, 3]
+[4, 5, 6]
+[7, 0, 8]
+  
+[1, 2, 3]
+[4, 5, 6]
+[7, 8, 0]
+  
+Number of traced nodes: 17
+Number of nodes expanded: 619
+Max queue size: 389
+Elapsed time: 0.858172575000026 ms.
+-----A* Manhattan Distance Heuristic-----
+
+This puzzle is solvable.
+Traceback of this puzzle:
+[1, 6, 7]
+[5, 0, 3]
+[4, 8, 2]
+  
+[1, 6, 7]
+[5, 3, 0]
+[4, 8, 2]
+  
+[1, 6, 0]
+[5, 3, 7]
+[4, 8, 2]
+  
+[1, 0, 6]
+[5, 3, 7]
+[4, 8, 2]
+  
+[1, 3, 6]
+[5, 0, 7]
+[4, 8, 2]
+  
+[1, 3, 6]
+[5, 8, 7]
+[4, 0, 2]
+  
+[1, 3, 6]
+[5, 8, 7]
+[4, 2, 0]
+  
+[1, 3, 6]
+[5, 8, 0]
+[4, 2, 7]
+  
+[1, 3, 6]
+[5, 0, 8]
+[4, 2, 7]
+  
+[1, 3, 6]
+[5, 2, 8]
+[4, 0, 7]
+  
+[1, 3, 6]
+[5, 2, 8]
+[4, 7, 0]
+  
+[1, 3, 6]
+[5, 2, 0]
+[4, 7, 8]
+  
+[1, 3, 0]
+[5, 2, 6]
+[4, 7, 8]
+  
+[1, 0, 3]
+[5, 2, 6]
+[4, 7, 8]
+  
+[1, 2, 3]
+[5, 0, 6]
+[4, 7, 8]
+  
+[1, 2, 3]
+[0, 5, 6]
+[4, 7, 8]
+  
+[1, 2, 3]
+[4, 5, 6]
+[0, 7, 8]
+  
+[1, 2, 3]
+[4, 5, 6]
+[7, 0, 8]
+  
+[1, 2, 3]
+[4, 5, 6]
+[7, 8, 0]
+  
+Number of traced nodes: 19
+Number of nodes expanded: 201
+Max queue size: 137
+Elapsed time: 0.10814026799999965 ms.
+-----test depth 20-----
+-----Uniform Cost Search-----

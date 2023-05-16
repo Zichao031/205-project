@@ -1,0 +1,69 @@
+Welcome to Zichao Xiao's 8-puzzle solver.
+We have three options for you:
+*1  Default 3x3 puzzle
+ 2  Custom puzzle
+ 3  test puzzle
+Default puzzle: enter the difficulty (1 to 7):
+*1 demo
+ 2  trivial
+ 3  very easy
+ 4  easy
+ 5  doable
+ 6  oh boy
+ 7  impossible
+Selected difficulty: demo
+
+Display traceback? (YES) 
+Select heuristic:
+ 1  Uniform Cost Search
+*2  A* Misplaced Tile Heuristic
+ 3  A* Manhattan Distance Heuristic
+Heuristic: A* Manhattan Distance Heuristic
+
+Expanding: g(n) = 0 with h(n) = 0 ...
+[1, 0, 3]
+[4, 2, 6]
+[7, 5, 8]
+  
+
+Expanding: g(n) = 1 with h(n) = 2 ...
+[1, 2, 3]
+[4, 0, 6]
+[7, 5, 8]
+  
+
+Expanding: g(n) = 2 with h(n) = 1 ...
+[1, 2, 3]
+[4, 5, 6]
+[7, 0, 8]
+  
+
+Expanding: g(n) = 3 with h(n) = 0 ...
+[1, 2, 3]
+[4, 5, 6]
+[7, 8, 0]
+  
+
+This puzzle is solvable.
+Traceback of this puzzle:
+[1, 0, 3]
+[4, 2, 6]
+[7, 5, 8]
+  
+[1, 2, 3]
+[4, 0, 6]
+[7, 5, 8]
+  
+[1, 2, 3]
+[4, 5, 6]
+[7, 0, 8]
+  
+[1, 2, 3]
+[4, 5, 6]
+[7, 8, 0]
+  
+Number of traced nodes: 4
+Number of nodes expanded: 3
+Max queue size: 6
+
+Elapsed time: 0.0009063540000000536 ms.
